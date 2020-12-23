@@ -33,7 +33,7 @@ API.add_resource(Predict, '/predict')
 
 @APP.route('/')
 def index():
-    return "<h1>Welcome to our server !!</h1>"
+    return "<h1>Welcome to our server!</h1>"
 
 
 if __name__ == '__main__':
